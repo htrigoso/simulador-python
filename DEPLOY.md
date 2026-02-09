@@ -22,7 +22,7 @@ git add .
 git commit -m "Initial commit - EV Energy Simulator"
 
 # Crear repositorio en GitHub y conectar
-git remote add origin https://github.com/TU-USUARIO/captcha-v3.git
+git remote add origin https://github.com/htrigoso/simulador-python.git
 git branch -M main
 git push -u origin main
 ```
@@ -33,7 +33,7 @@ git push -u origin main
 2. Inicia sesión con tu cuenta de GitHub
 3. Haz clic en "New app"
 4. Configura:
-   - **Repository**: TU-USUARIO/captcha-v3
+   - **Repository**: htrigoso/simulador-python
    - **Branch**: main
    - **Main file path**: main.py
 5. Haz clic en "Deploy!"
@@ -55,7 +55,7 @@ app_name = "EV Energy Simulator"
 Tu app estará disponible en:
 
 ```
-https://TU-USUARIO-captcha-v3-main.streamlit.app
+https://simulador-python-rmqhrojygvvxtjk6q8ie9t.streamlit.app
 ```
 
 ## 🔧 Actualizar la App
