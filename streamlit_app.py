@@ -116,10 +116,10 @@ c5.metric("μ_min requerido", f"{mu_req_case:.2f}")
 c6.metric("Estado", "✅ Seguro" if safe_case else "⚠️ Riesgo")
 
 with st.expander("Ver detalle de fuerzas (caso puntual)"):
-    st.write(f"- **Fuerza centrípeta**:  \(F_c = m v^2/r = {Fc_case:.1f}\) N")
-    st.write(f"- **Normal** (aprox.): \(N \\approx m g = {N_case:.1f}\) N")
-    st.write(f"- **Fricción máxima**: \(F_{{f,max}} = \\mu N \\approx {Ff_max_case:.1f}\) N")
-    st.write("- **Criterio**: si \(F_c \\le F_{f,max}\) entonces no hay derrape (equivale a \(\\mu \\ge \\mu_{min}\)).")
+    st.markdown(f"- **Fuerza centrípeta**: $F_c = m v^2/r = {Fc_case:.1f}$ N")
+    st.markdown(f"- **Normal** (aprox.): $N \\approx m g = {N_case:.1f}$ N")
+    st.markdown(f"- **Fricción máxima**: $F_{{f,max}} = \\mu N \\approx {Ff_max_case:.1f}$ N")
+    st.markdown("- **Criterio**: si $F_c \\le F_{f,max}$ entonces no hay derrape (equivale a $\\mu \\ge \\mu_{min}$).")
 
 st.divider()
 
