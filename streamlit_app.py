@@ -45,18 +45,13 @@ r"""
 Este simulador aplica un modelo simplificado de **mecánica clásica** para el giro de un scooter en **movimiento circular uniforme** (velocidad constante).
 
 **Fórmulas implementadas:**
-
-$$a_c=\\frac{v^2}{r}$$
-
-$$F_c=m\\frac{v^2}{r}$$
-
-$$\\mu_{min}=\\frac{v^2}{rg}$$
-
-$$\\theta=\\arctan\\left(\\frac{v^2}{rg}\\right)$$
-
-**Criterio:** Seguro si $\\mu \\ge \\mu_{min}$
 """
 )
+st.latex(r"a_c=\frac{v^2}{r}")
+st.latex(r"F_c=m\frac{v^2}{r}")
+st.latex(r"\mu_{min}=\frac{v^2}{rg}")
+st.latex(r"\theta=\arctan\left(\frac{v^2}{rg}\right)")
+st.markdown(r"**Criterio:** Seguro si $\mu \ge \mu_{min}$")
 
 # -----------------------------
 # Sidebar: parámetros y escenarios
